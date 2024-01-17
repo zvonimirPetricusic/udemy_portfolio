@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio site</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Days+One&family=Sen&family=Work+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#aboutMe">About me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contactMe">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <img src="img/me.png" alt="me.png">
+            <h1>Hi! I'm Zvonimir. I am learning CSS with Udemy!</h1>
+        </div>
+    </section>
+
+    <section id="aboutMe" class="aboutMe">
+        <h2>About me</h2>
+        <div class="aboutMeSection">
+            <div class="img">
+                <div class="aboutMeImage"></div>
+            </div>
+            <div class="aboutMeText">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat justo ac justo ullamcorper, eu bibendum 
+                    felis fringilla. Vestibulum tristique, nulla vel dapibus malesuada, neque justo gravida odio, ut tempus purus nisi at justo.
+                </p>
+                <p>
+                    Nunc malesuada augue non elit fringilla, id dictum orci pulvinar. Sed nec velit sed nulla feugiat ullamcorper in vitae nisi. 
+                    Vivamus sit amet arcu vel arcu dictum ultricies eu non enim. Duis in justo nec orci varius consectetur. Nam vitae tincidunt tortor. 
+                </p>
+                <p>
+                    Aenean ac tellus auctor, dictum urna et, tristique nisl. Sed id nisl vel lacus tincidunt fermentum vel non sapien. Nulla facilisi.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="project">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="github">
+                    <div class="text">
+                        <h3 class="projectName">Github</h3>
+                        <div class="content">
+                            <p>See all my projects on GitHub!</p>
+                        </div>
+                        <a class="button" href="https://github.com/zvonimirPetricusic" target="_blank">View Github</a>
+                    </div>
+                </div>
+
+                <div class="homeBudgetApp">
+                    <div class="text">
+                        <h3 class="projectName">Home budget app</h3>
+                        <div class="content">
+                            <p>Laravel project!</p>
+                        </div>
+                        <a class="button" href="https://github.com/zvonimirPetricusic/home_budget_app" target="_blank">View project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contactMe" class="contact">
+        <h2>Contact</h2>
+        <p>Use this form to get in touch! I would love to hear from you!</p>
+        <form action="" class="contactForm">
+            <div class="contactDetails">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Your name goes here">
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" placeholder="Subject goes here">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Your email goes here">
+            </div>
+            <div class="message">
+                <label for="message">Message</label>
+                <textarea name="msg" id="msg" rows="15"></textarea>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="copyright">This site &copy; 2024 Zvonimir Petričušić!</div>
+            <div class="socialMedia">
+                <a href="https://www.facebook.com/zvonimir.petricusic/"><i class='fab fa-facebook'></i></a>
+                <a href="https://www.instagram.com/zvo.ne/"><i class='fab fa-instagram'></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
